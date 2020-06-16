@@ -1,0 +1,21 @@
+
+body {
+    text-align: center;
+    background: url("http://dash.ga.co/assets/anna-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+h2 {
+    font-family: Helvetica;
+}
+input {
+    padding: 10px 8px;
+    font-size: 18px;
+    border: 0;
+}
+input[type="submit"] {
+    background-color: red;
+    color: white;
+}

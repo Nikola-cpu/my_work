@@ -1,0 +1,85 @@
+.robot {
+    position: relative;
+    left: 350px;
+}
+.beep {
+    height: 0;
+    width: 5px;
+    border: 5px solid transparent;
+    border-top: 10px solid #777;
+    border-bottom: 80px solid #888;
+    position: relative;
+    left: 140px;
+}
+
+@keyframes blink {
+    from {
+        background: radial-gradient(circle, blue 20%, transparent 40%),tomato;
+    }
+}
+.laser {
+    animation: blink .5s infinite;
+}
+.brain {
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle, white 20%, transparent 40%),tomato;
+    background-size: 75px;
+    border-radius: 60px 60px 10px 10px;
+    border-bottom: 40px solid #666;
+    position: relative;
+    left: 70px;
+}
+.torso {
+    height: 0;
+    width: 140px;
+    border-top: 300px solid #bc6;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-radius: 20px 20px 100px 100px;
+    position: relative;
+}
+.left {
+    font-size: 220px;
+    font-family: 'Poller one';
+    font-weight: bold;
+    color: grey;
+    transform: rotate(220deg);
+    position: absolute;
+    top: -300px;
+    left: -160px;
+    z-index: -1;
+}
+.right {
+    font-size: 220px;
+    font-family: 'Poller one';
+    font-weight: bold;
+    color: grey;
+    transform: scaleY(-1) rotate(35deg);
+    position: absolute;
+    top: -290px;
+    left: 200px;
+    z-index: -1;
+}
+.foot {
+    background-color: tomato;
+    height: 40px;
+    width: 40px;
+    border: 15px solid grey;
+    border-radius: 40px;
+    position: relative;
+    left: 106px;
+    top: -20px;
+    z-index: -1;
+}
+@keyframes move {
+    from {
+        left: 1000px;
+    }
+}
+img {
+    animation: move 4s infinite;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}

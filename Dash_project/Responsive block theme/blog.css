@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+header {
+    text-align: center;
+    background: url("https://thumbs.dreamstime.com/b/abstract-under-sea-background-white-sand-sun-ray-your-design-digital-generating-image-d-illustration-89870659.jpg");
+}
+img {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid lightcoral;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 0px;
+}
+ul {
+    padding: 10px;
+    background: lightgreen;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+button {
+    margin: 15px 0px;
+    padding: 3px 2px;
+}
+h2 {
+    padding: 15px 0px;
+}
+@media (max-width: 500px) {
+    body {
+        background: red;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    li {
+        display: block;
+    }
+    img {
+        width: 30%;
+    }
+}

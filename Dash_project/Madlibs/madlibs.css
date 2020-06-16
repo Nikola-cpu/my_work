@@ -1,0 +1,17 @@
+body {
+  background: royalblue;
+  text-align: center;
+  font-family: 'Fjalla One';
+  margin: 20px;
+  font-size: 30px;
+}
+.fill {
+  color: red;
+  border-bottom: 2px solid black;
+  padding: 0 6px;
+  margin: 4px;
+  background: white;
+}
+button {
+  margin: 30px;
+}

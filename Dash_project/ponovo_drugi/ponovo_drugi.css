@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background: url('http://dash.ga.co/assets/jeff-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+img {
+    width: 11%;
+    margin: 30px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 45px;
+    padding: 20px;
+    color: white;
+}
+ul {
+    padding: 0px 10px;
+    background-color: yellowgreen;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 7px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+article {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    padding: 15px 0px;
+}
+button {
+    margin: 10px 0px;
+    padding: 4px 8px;
+}
+@media(max-width: 500px) {
+    body {
+        background-color: red;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+}
